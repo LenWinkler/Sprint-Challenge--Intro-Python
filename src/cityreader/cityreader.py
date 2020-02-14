@@ -40,9 +40,6 @@ def cityreader(cities=[]):
 
 cityreader(cities)
 
-print('type', type(cities[0].lat))
-print('run fn', cityreader(cities))
-
 # Print the list of cities (name, lat, lon), 1 record per line.
 for c in cities:
     print(c.name, c.lat, c.lon)
